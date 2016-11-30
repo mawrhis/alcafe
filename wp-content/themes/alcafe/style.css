@@ -134,7 +134,8 @@ span{
 h1{
 /*
     font-weight: normal;*/
-    margin: 0;
+   
+    margin-bottom: 0.5rem;
     font-size: 1.5rem;
 }
 
@@ -289,6 +290,8 @@ div::after{
     text-align: center;
     font-weight:bold;
     font-size: 1.5rem;
+
+    margin-bottom: 0.5rem;
 }
 
 #guest_text{
@@ -310,6 +313,7 @@ div::after{
 margin-left: auto;
 margin-right: auto;
 }
+
 
 #post_summary{
 
@@ -398,6 +402,11 @@ margin-right: auto;
 
 }
 
+.contact table p{
+
+    margin: 0.1rem 0rem 1rem 0rem;
+}
+
 #slideshow_cafe{
     padding: 0rem 0.5rem 0rem 0.5rem;
 }
@@ -452,8 +461,12 @@ margin-right: auto;
 }
 
 #post-193 #paragraph{
+        text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     white-space:nowrap;
-    margin-left: -10px;
+    
+    width: 100%;
     color: #CCCCCC;
 }
 
@@ -548,7 +561,8 @@ margin-right: auto;
 
 #post_summary h1 {
 
-    font-weight: normal;
+    font-weight: bold;
+    font-size: 1.35rem;
 }
 
 
@@ -762,7 +776,11 @@ float:left;
     max-width:900px;
 }
 .post_summary{
-    max-width: 800px;
+    max-width: 900px;
+}
+
+.post.hentry.ivycat-post{
+width:335px;
 }
 
 
@@ -795,7 +813,11 @@ float:left;
     max-width: 1000px;
 }
 .post_summary{
-    max-width: 800px;
+    max-width: 1000px;
+}
+
+.post.hentry.ivycat-post{
+width:380px;
 }
 
 } 
@@ -825,11 +847,15 @@ float:left;
 }
 
 .post_summary{
-    max-width: 800px;
+    max-width: 1000px;
 }
 
 .posts_home .post{
 
+}
+
+.post.hentry.ivycat-post{
+width:470px;
 }
 
 /*.post.hentry.ivycat-post{
@@ -840,6 +866,10 @@ float:left;
 #post-content-text{
 
 }
+
+.menu-item {
+    width: 12.5%;
+    }
 
 
 
