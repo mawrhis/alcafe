@@ -8,7 +8,7 @@ Template Name: Contact Template
 
 	<?php the_post() ?>
 	<div id="contact_summary">
-					<p style="text-align: justify;">Alzheimer Café se koná v Centru Seňorina. Tento denní stacionář se nachází v 1. patře domu Na Poříčí 36, v Praze 1<strong>,</strong> s výbornou dostupností MHD (metro B a C, BUS, TRAM, vlakové Masarykovo nádraží). Auto je možné krátkodobě přistavit přímo ke vchodu v domovním průjezdu nebo na nedalekém parkovacím stání pro invalidy. Dlouhodobé parkování umožňují placená parkoviště v okolí (např. Parkování Florentinum, Garáže Palladium, Parking Florenc, Parkoviště Pod Magistrálou). Přístup do samotného centra je bezbariérový, v domě je výtah.</p>
+					<p style="text-align: justify;">Alzheimer Café se koná v Centru Seňorina. Tento denní stacionář se nachází v 1. patře domu Na Poříčí 36, v Praze 1<strong>,</strong> s výbornou dostupností MHD (metro B a C, BUS, TRAM, vlakové Masarykovo nádraží). <p>Auto je možné krátkodobě přistavit přímo ke vchodu v domovním průjezdu nebo na nedalekém parkovacím stání pro invalidy. Dlouhodobé parkování umožňují placená parkoviště v okolí (např. Parkování Florentinum, Garáže Palladium, Parking Florenc, Parkoviště Pod Magistrálou). Přístup do samotného centra je bezbariérový, v domě je výtah.</p>
 					<p style="text-align: justify;"><strong>Jak nás můžete kontaktovat:</strong></p>
 					<p style="text-align: justify;"><strong>email: kontakt@alzheimercafe.cz</strong><br>
 					tel: +420723812087</p>
