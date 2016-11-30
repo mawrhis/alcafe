@@ -404,6 +404,9 @@ margin-right: auto;
 .post{
     margin-bottom: 20px;
 
+    float:left;
+    margin-left: auto;
+    margin-right: auto;
     padding: 1rem;
     border: 10px solid transparent;
     -webkit-border-image:url("img/border.png") 10 stretch;
@@ -650,9 +653,9 @@ margin-right: auto;
 @media only screen and (min-width: 800px){
 
 
-.post{
-    margin-right:10px;
-    float:left;
+.post{/*
+    margin-right:10px;*/
+    width: 640px;
 }
 
 
@@ -742,6 +745,10 @@ float:left;
     width:900px;
 }
 
+.post{
+    width: 840px;
+}
+
 #footer_text{
     width:900px;
 
@@ -770,6 +777,9 @@ float:left;
 
 #main{
     width:1000px;
+}
+.post{
+    width: 940px;
 }
 
 #footer_text{
