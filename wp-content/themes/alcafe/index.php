@@ -7,8 +7,8 @@ Template Name: alcafe
 <div class="post_summary">
 <?php if ( is_home() ) : get_search_form( ); ?>
 <?php endif; ?>
+<div id="upcoming"><div class="divider_inner"><div class="divider"></div><h3>Příští Alzheimer Café</h3><div class="divider"></div></div></div>
 
-<div id="upcoming"><h3>—————————————————   Příští Alzheimer Café   ————————————————</h3></div>
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 
