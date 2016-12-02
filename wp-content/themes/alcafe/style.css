@@ -338,8 +338,10 @@ div::after{
     width:70%;
 }
 
+
+
 .page-id-7 table img{
-    max-width: 110px;
+    max-width: 50px;
     margin-right: 1rem;
     margin-left: 1rem;
     width: auto;
@@ -730,6 +732,11 @@ margin-right: auto;
     float:left;
     width:80%;
     margin-left:20px;
+}
+
+.page-id-7 table img{
+    max-width: 110px;
+
 }
 
 #footer { 
