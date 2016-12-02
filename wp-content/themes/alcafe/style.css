@@ -234,6 +234,12 @@ div::after{
 
 }
 
+#contact_summary #map a{
+    color: white;
+   pointer-events: none;
+   cursor: default;
+}
+
 .wp-caption-text{
 
 }
@@ -305,7 +311,7 @@ div::after{
 
 #paragraph{
     float:left;
-    width:80%;
+    width:70%;
     margin-left:20px;
 }
 
@@ -696,6 +702,11 @@ margin-right: auto;
 }
 
 
+#paragraph{
+    float:left;
+    width:80%;
+    margin-left:20px;
+}
 
 #footer { 
 float:left;
@@ -771,6 +782,12 @@ float:left;
 
 .post{
     width: 840px;
+}
+
+#paragraph{
+    float:left;
+    width:85%;
+    margin-left:20px;
 }
 
 #footer_text{

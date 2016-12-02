@@ -34,8 +34,8 @@ add_filter('pre_get_posts','SearchFilter');
 
 add_theme_support( 'title-tag' );
 
-add_filter( 'rwmb_meta_boxes', 'your_prefix_meta_boxes' );
-function your_prefix_meta_boxes( $meta_boxes ) {
+add_filter( 'rwmb_meta_boxes', 'alcafe_meta_boxes' );
+function alcafe_meta_boxes( $meta_boxes ) {
     $meta_boxes[] = array(
         'title'      => __( 'Host, datum a čas', 'alcafe' ),
         'post_types' => 'post',
