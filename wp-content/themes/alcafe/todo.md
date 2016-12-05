@@ -1,6 +1,6 @@
 # must have
 
-* vault press - wordpress autobackup database
+* <strike>updraft plus - wordpress autobackup database</strike>
 * get rid of tables in contacts page
 * contacts page - remove text from theme files
         * http://html5doctor.com/the-address-element/
