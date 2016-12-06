@@ -2,7 +2,7 @@
 
 * <s>updraft plus - wordpress autobackup database</s>
 * <s>get rid of tables in contacts page</s>
-* contacts page - remove text from theme files
+* <s>contacts page - remove text from theme files</s>
         * http://html5doctor.com/the-address-element/
 * get rid of tables in sponsors page
 * get rid of tables in footer
@@ -14,7 +14,8 @@
 
 * navigation in nav element
 * mobile version css edits - margins, paddings etc
-* clean uploaded files and images
+* css edits - main page menu/content alignment 
+* clean uploaded files and images and themes
 
 # nice to have
 
