@@ -34,6 +34,38 @@ add_filter('pre_get_posts','SearchFilter');
 
 add_theme_support( 'title-tag' );
 
+
+add_action( 'init', 'people_post_type' );
+function people_post_type() {
+  register_post_type( 'alcafe_people',
+    array(
+      'labels' => array(
+        'name' => __( 'Kontakty - lidé' ),
+        'singular_name' => __( 'kontakt' )
+      ),
+      'public' => true,
+      'has_archive' => true,
+    )
+  );
+}
+
+add_action( 'init', 'sponsor_post_type' );
+function sponsor_post_type() {
+  register_post_type( 'alcafe_sponsor',
+    array(
+      'labels' => array(
+        'name' => __( 'Sponzoři' ),
+        'singular_name' => __( 'kontakt' )
+      ),
+      'public' => true,
+      'has_archive' => true,
+    )
+  );
+}
+
+
+
+
 add_filter( 'rwmb_meta_boxes', 'alcafe_meta_boxes' );
 function alcafe_meta_boxes( $meta_boxes ) {
     $meta_boxes[] = array(
@@ -87,6 +119,51 @@ function alcafe_meta_boxes( $meta_boxes ) {
             ),
          ),
     );
+    $meta_boxes[] = array(
+        'title'      => esc_html__( 'Kontakty - lidé', 'alcafe' ),
+        'post_types' => 'alcafe_people',
+        'fields'     => array(
+           // IMAGE UPLOAD
+            array(
+                'name' => esc_html__( 'obrazek', 'alcafe' ),
+                'id'   => "people_image",
+                'type' => 'image',
+            ),
+            // TEXTAREA
+            // array(
+            //     'name' => esc_html__( 'Text', 'alcafe' ),
+            //     'desc' => esc_html__( 'Text popis', 'alcafe' ),
+            //     'id'   => "people_text",
+            //     'type' => 'textarea',
+            //     'cols' => 20,
+            //     'rows' => 3,
+            // ),
+        ),
+
+    );
+    // predelat na sponzory
+    // $meta_boxes[] = array(
+    //     'title'      => esc_html__( 'Kontakty - lidé', 'alcafe' ),
+    //     'post_types' => 'alcafe_people',
+    //     'fields'     => array(
+    //        // IMAGE UPLOAD
+    //         array(
+    //             'name' => esc_html__( 'obrazek', 'alcafe' ),
+    //             'id'   => "people_image",
+    //             'type' => 'image',
+    //         ),
+    //         // TEXTAREA
+    //         array(
+    //             'name' => esc_html__( 'Text', 'alcafe' ),
+    //             'desc' => esc_html__( 'Text popis', 'alcafe' ),
+    //             'id'   => "people_text",
+    //             'type' => 'textarea',
+    //             'cols' => 20,
+    //             'rows' => 3,
+    //         ),
+    //     ),
+
+    // );
     return $meta_boxes;
 }
 

@@ -443,9 +443,10 @@ margin-right: auto;
 
 }
 
-.contact table p{
+.people_text p{
 
     margin: 0.1rem 0rem 1rem 0rem;
+    margin-left: 0.5rem;
 }
 
 #slideshow_cafe{
@@ -612,6 +613,8 @@ margin-right: auto;
     margin-bottom: 10px;
      position: relative;
     padding-top: 0.5rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
 }
 
 .contact td:nth-child(1){
@@ -664,6 +667,19 @@ margin-right: auto;
 .home_widget{
     float:left;
     margin:10px;
+
+}
+
+.people_image img{
+    float:left;
+    max-width: 130px;
+    height: auto;
+    padding-right: 1rem;
+
+}
+
+.people_text {
+    margin-left: 140px;
 
 }
 
@@ -805,6 +821,8 @@ float:left;
 
 .contact{
     width:45%;
+    margin-right: 0rem;
+    margin-left: 0rem;
 }
 
 #main{
