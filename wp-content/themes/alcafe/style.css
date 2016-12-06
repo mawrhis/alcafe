@@ -205,9 +205,25 @@ ul::after{
     clear:both;
 }
 
-#footer td{
 
-    width: 33%;
+.footer_left{
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+.footer_center{
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+.footer_right{
+
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+.footer_info{
+
+    width: 100%;
+    float:left;
+    text-align: center;
 }
 
 div::after{
@@ -822,7 +838,34 @@ float:left;
 #content{
     margin-top: 20px;
 }
+.footer_left{
 
+    width: 33%;
+    float:left;
+    text-align: left;
+
+    padding-bottom: 0rem;
+}
+.footer_center{
+
+    width: 33%;
+    float:left;
+    text-align: center;
+    padding-bottom: 0rem;
+}
+.footer_right{
+
+    width: 33%;
+    float:left;
+    text-align: right;
+    padding-bottom: 0rem;
+}
+.footer_info{
+
+    width: 100%;
+    float:left;
+    text-align: center;
+}
 
 }
 
