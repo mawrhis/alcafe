@@ -5,7 +5,7 @@
 * <s>contacts page - remove text from theme files</s>
         * http://html5doctor.com/the-address-element/
 * <s>get rid of tables in sponsors page</s>
-* get rid of tables in footer
+* <s>get rid of tables in footer</s>
 
 * web accessibility 
         * http://wave.webaim.org/
