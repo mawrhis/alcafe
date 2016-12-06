@@ -141,29 +141,20 @@ function alcafe_meta_boxes( $meta_boxes ) {
         ),
 
     );
-    // predelat na sponzory
-    // $meta_boxes[] = array(
-    //     'title'      => esc_html__( 'Kontakty - lidé', 'alcafe' ),
-    //     'post_types' => 'alcafe_people',
-    //     'fields'     => array(
-    //        // IMAGE UPLOAD
-    //         array(
-    //             'name' => esc_html__( 'obrazek', 'alcafe' ),
-    //             'id'   => "people_image",
-    //             'type' => 'image',
-    //         ),
-    //         // TEXTAREA
-    //         array(
-    //             'name' => esc_html__( 'Text', 'alcafe' ),
-    //             'desc' => esc_html__( 'Text popis', 'alcafe' ),
-    //             'id'   => "people_text",
-    //             'type' => 'textarea',
-    //             'cols' => 20,
-    //             'rows' => 3,
-    //         ),
-    //     ),
+    $meta_boxes[] = array(
+        'title'      => esc_html__( 'Sponzoři', 'alcafe' ),
+        'post_types' => 'alcafe_sponsor',
+        'fields'     => array(
+           // IMAGE UPLOAD
+            array(
+                'name' => esc_html__( 'obrazek', 'alcafe' ),
+                'id'   => "sponsor_image",
+                'type' => 'image',
+            ),
+        ),
 
-    // );
+
+    );
     return $meta_boxes;
 }
 

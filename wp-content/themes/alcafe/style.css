@@ -443,7 +443,17 @@ margin-right: auto;
 
 }
 
+.sponsor_content {
+min-height: 180px;
+}
+
 .people_text p{
+
+    margin: 0.1rem 0rem 1rem 0rem;
+    margin-left: 0.5rem;
+}
+
+.sponsor_text p{
 
     margin: 0.1rem 0rem 1rem 0rem;
     margin-left: 0.5rem;
@@ -612,13 +622,18 @@ margin-right: auto;
     width:100%;
     margin-bottom: 10px;
      position: relative;
-    padding-top: 0.5rem;
+    padding-top: 1rem;
     margin-right: 1rem;
     margin-left: 1rem;
 }
 
-.contact td:nth-child(1){
-    padding-right: 1rem;
+.sponsors{
+    float:left;
+    margin-bottom: 10px;
+     position: relative;
+    padding-top: 0.5rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
 }
 
 
@@ -678,7 +693,20 @@ margin-right: auto;
 
 }
 
+.sponsors_image img{
+    float:left;
+    max-width: 130px;
+    height: auto;
+    padding-right: 1rem;
+
+}
+
 .people_text {
+    margin-left: 140px;
+
+}
+
+.sponsor_text {
     margin-left: 140px;
 
 }
@@ -821,6 +849,11 @@ float:left;
 
 .contact{
     width:45%;
+    margin-right: 0rem;
+    margin-left: 0rem;
+}
+
+.sponsors{
     margin-right: 0rem;
     margin-left: 0rem;
 }
