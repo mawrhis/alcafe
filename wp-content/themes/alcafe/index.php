@@ -5,7 +5,7 @@ Template Name: alcafe
 ?>
 <?php get_header(); ?>
 <div class="post_summary">
-<?php if ( is_home() ) : get_search_form( ); ?>
+<div class="searchbar"><?php if ( is_home() ) : get_search_form( ); ?></div>
 <?php endif; ?>
 <div id="upcoming"><div class="divider_inner"><div class="divider"></div><h3>Příští Alzheimer Café</h3><div class="divider"></div></div></div>
 

@@ -12,9 +12,9 @@
         * https://www.w3.org/WAI/intro/accessibility.php
         * https://validator.w3.org/
 
-* navigation in nav element
+* <s>navigation in nav element</s>
 * mobile version css edits - margins, paddings etc
-* css edits - main page menu/content alignment 
+* <s>css edits - main page menu/content alignment </s>
 * clean uploaded files and images and themes
 
 # nice to have

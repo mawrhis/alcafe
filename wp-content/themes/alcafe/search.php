@@ -3,8 +3,11 @@
 Template Name: Default Page
 */
 ?>
+
 <?php get_header(); ?>
- <?php  get_search_form( ); ?>
+
+<div class="post_summary">
+<div class="searchbar"><?php  get_search_form( ); ?></div>
 <h2><?php printf( __( 'Výsledky hledání pro výraz: %s' ), '<span>' . get_search_query() . '</span>'); ?></h2>
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
     <div class="search">
@@ -29,7 +32,7 @@ Template Name: Default Page
 <?php endwhile; else: ?>
 
 
-
+</div>
 <?php _e('Omlouváme se, na vámi hledaný dotaz jsme nic nenašli.', 'alcafe'); ?><?php endif; ?>
 
 

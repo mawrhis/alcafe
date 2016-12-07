@@ -10,7 +10,7 @@ Template Name: Domu Template
 			<div id="post-<?php the_ID(); ?>" class="posts_home" >
 				<div class="post-content" >
         		<div id="post-content-text"><?php the_content(); ?></div>
-				<?php echo do_shortcode ("[ic_add_posts showposts='1']") ?>
+				<div class="homepage_post"><?php echo do_shortcode ("[ic_add_posts showposts='1']") ?></div>
 				</div><!-- .post-content -->
 
 			</div><!-- .post -->
