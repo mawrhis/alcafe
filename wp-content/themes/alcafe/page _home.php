@@ -24,7 +24,7 @@ Template Name: Domu Template
 			<?php get_sidebar() ?>
 
 		<?php get_footer() ?> 
-	</div><!-- #main -->
+
 
 
 
