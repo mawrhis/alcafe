@@ -401,11 +401,20 @@ margin-right: auto;
 /*.bwg_slideshow_image_0{
     max-height:400px !important;
 }*/
+.home #main{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.blog #main{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
 
 #main{
     padding-bottom:120px;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 
     margin-top: 1rem;
     
@@ -458,9 +467,6 @@ margin-right: auto;
     padding: 1rem;
 }
 
-#contact_summary{
-    padding: 0rem 1rem 0rem 1rem;
-}
 
 .contact{
 
@@ -470,17 +476,7 @@ margin-right: auto;
 min-height: 180px;
 }
 
-.people_text p{
 
-    margin: 0.1rem 0rem 1rem 0rem;
-    margin-left: 0.5rem;
-}
-
-.sponsor_text p{
-
-    margin: 0.1rem 0rem 1rem 0rem;
-    margin-left: 0.5rem;
-}
 
 #slideshow_cafe{
     padding: 0rem 0.5rem 0rem 0.5rem;
@@ -642,15 +638,21 @@ min-height: 180px;
     font-size: 1.35rem;
 }
 
+.people_text p{
+
+    margin: 0.1rem 0rem 1rem 0rem;
+}
+
+.sponsor_text p{
+
+    margin: 0.1rem 0rem 1rem 0rem;
+}
 
 .contact{
     float:left;
     width:100%;
     margin-bottom: 10px;
      position: relative;
-    padding-top: 1rem;
-    margin-right: 1rem;
-    margin-left: 1rem;
 }
 
 .sponsors{
@@ -658,8 +660,6 @@ min-height: 180px;
     margin-bottom: 10px;
      position: relative;
     padding-top: 0.5rem;
-    margin-right: 1rem;
-    margin-left: 1rem;
 }
 
 
@@ -728,12 +728,15 @@ min-height: 180px;
 }
 
 .people_text {
-    margin-left: 140px;
+    margin-top: 1rem;
+    float:left;
 
 }
 
 .sponsor_text {
-    margin-left: 140px;
+
+    margin-top:1rem;
+    float:left;
 
 }
 
@@ -788,17 +791,54 @@ min-height: 180px;
     float:right;
 }
 
+.sponsor_text {
+    margin-top: 0rem;
+    margin-left: 140px;
+    float:none;
+
+}
+
+.contact{
+    padding-top: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
 .post{/*
     margin-right:10px;*/
     width: 640px;
     padding: 1rem;
 }
 
+.home #main{
+    margin-left: inherit;
+    margin-right: inherit;
+}
+
+.blog #main{
+    margin-left: inherit;
+    margin-right: inherit;
+}
+
 #main{
     margin-left: auto;
     margin-right: auto;
     }
+.people_text p{
 
+    margin: 0.1rem 0rem 1rem 0rem;
+    margin-left: 0.5rem;
+}
+
+.sponsor_text p{
+
+    margin: 0.1rem 0rem 1rem 0rem;
+    margin-left: 0.5rem;
+}
+
+#contact_summary{
+    padding: 0rem 1rem 0rem 1rem;
+}
 
 .menu-item:nth-child(3) {
    margin-right: 20%;
@@ -813,6 +853,12 @@ min-height: 180px;
 }
 
 
+.people_text {
+    margin-top: 0px;
+    margin-left: 140px;
+    float:none;
+
+}
 #paragraph{
     float:left;
     width:80%;

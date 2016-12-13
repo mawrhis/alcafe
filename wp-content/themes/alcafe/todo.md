@@ -13,9 +13,10 @@
         * https://validator.w3.org/
 
 * <s>navigation in nav element</s>
-* mobile version css edits - margins, paddings etc
+* <s>mobile version css edits - margins, paddings etc</s>
 * <s>css edits - main page menu/content alignment </s>
 * clean uploaded files and images and themes
+* hamburger menu for mobile
 
 # nice to have
 
