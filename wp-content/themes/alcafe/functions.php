@@ -65,7 +65,6 @@ function sponsor_post_type() {
 
 
 
-
 add_filter( 'rwmb_meta_boxes', 'alcafe_meta_boxes' );
 function alcafe_meta_boxes( $meta_boxes ) {
     $meta_boxes[] = array(
@@ -158,3 +157,9 @@ function alcafe_meta_boxes( $meta_boxes ) {
     return $meta_boxes;
 }
 
+function alcafe_scripts() {
+
+//hamburger menu
+wp_enqueue_script( 'wpb_slidepanel', get_template_directory_uri() . '/js/slidepanel.js', array('jquery'), false, true ); 
+}
+add_action( 'wp_enqueue_scripts', 'alcafe_scripts' );

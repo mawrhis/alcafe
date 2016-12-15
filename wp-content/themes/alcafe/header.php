@@ -44,5 +44,15 @@
     </div>
 
 
-<div id="menu"><nav id="pages"><?php wp_nav_menu(); ?></nav></div>
+
+<div id="menu"><nav id="pages">
+<div id="toggle">
+<img src="http://localhost/AlCafe/wp-content/themes/AlCafe/img/menu.svg" alt="Show" /></div>
+<div id="popout">
+<?php wp_nav_menu(); ?>
+</div>
+</nav></div>
+
+
+
 <div id="main"><!--main-->

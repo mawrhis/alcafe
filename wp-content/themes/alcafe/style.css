@@ -479,6 +479,10 @@ min-height: 180px;
 
 
 #slideshow_cafe{
+
+    position: relative;
+
+    z-index: 0;
     padding: 0rem 0.5rem 0rem 0.5rem;
 }
 
@@ -584,19 +588,18 @@ min-height: 180px;
 }
 
 #menu{
-    height:70px;
     padding:1rem 0rem 0rem 0rem;
     background-color: #F9F9FA;
 }
 
 .menu-item{
     display: block;
-    width: 30%;
+    width: 80%;
     float:left;
     font-family: 'Oranienbaum', serif;
     text-transform: uppercase;
     text-align: center;
-    padding:0.2rem;
+    padding:1rem;
     font-size: 1.1rem;
 }
 
@@ -771,6 +774,48 @@ min-height: 180px;
 }
 
 
+/*hamburger menu*/
+
+#popout {
+position: fixed;
+height: 100%;
+width: 250px;
+background: rgb(25, 25, 25);
+background: rgba(25, 25, 25, .9);
+color: white;
+top: 0px;
+left: -250px;
+overflow:auto;
+z-index: 1;
+}
+
+
+#toggle {
+z-index: 1;
+float: right;
+position: fixed;
+top: 1.5rem;
+right: 1.5rem;
+width: 50px;
+height: 50px;
+
+}
+
+.nav-menu li { 
+border-bottom:1px solid #eee; 
+padding:20px;
+width:100%;
+}
+
+.nav-menu li:hover { 
+background:#CCC;
+}
+
+.nav-menu li a { 
+color:#FFF;
+text-decoration:none;
+width:100%;
+}
 
 
 /*---------------------------------------/plugin styles------------------------------------------------*/
@@ -779,11 +824,27 @@ min-height: 180px;
 
 @media only screen and (min-width: 800px){
 
+#popout {
+ position: initial;
+height: initial;
+width: initial;
+background: initial;
+background: initial;
+color: initial;
+top: initial;
+left: initial;
+overflow:initial;
+}
+
 .searchbar{
 
     width: 100%;
     height: 30px;
     margin-bottom: 1rem;
+}
+
+#toggle {
+display:none;
 }
 
 .searchform{
@@ -896,6 +957,8 @@ float:left;
     }
 
 #menu{
+
+    height:70px;
     margin-top: -80px;
     margin-left: auto;
     margin-right: auto;
