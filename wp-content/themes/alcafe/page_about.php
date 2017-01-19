@@ -8,7 +8,7 @@ Template Name: About us Template
 
     <?php the_post() ?>
     <div id="about_summary">
-
+                   <h1><?php the_title(); ?></h1>
                     <p><?php the_content(); ?></p>
 
     </div><!-- #about_summary -->

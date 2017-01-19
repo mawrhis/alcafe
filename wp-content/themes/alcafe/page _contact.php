@@ -11,16 +11,18 @@ Template Name: Contact Template
 
 			        <p><?php the_content(); ?></p>
 
+	<div class="fb-like" data-href="https://www.facebook.com/alzheimercafeCZ/?fref=ts" data-layout="standard" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
 	</div><!-- #contact_summary -->
 	<div class="contact">
 
 	
 	<?php 
-	$args = array( 'post_type' => 'alcafe_people', 'posts_per_page' => 3 );
+	$args = array( 'post_type' => 'alcafe_people', 'posts_per_page' => 4 );
 	$the_query = new WP_Query( $args ); 
 	?>
 	<?php if ( $the_query->have_posts() ) : ?>
 	<?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+
 	<div class="people_content">
 		<div class="people_image"><?php $images = rwmb_meta( 'people_image', 'size=YOURSIZE' );            // Since 4.8.0
 				if ( !empty( $images ) ) {
