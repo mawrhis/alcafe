@@ -102,7 +102,11 @@ table {
 
 
 
-
+#post-content-text h1{
+    font-size: 1rem;
+    float: left;
+    line-height: 100%;
+    margin: 0;}
 
 .eq{
     display:none;
