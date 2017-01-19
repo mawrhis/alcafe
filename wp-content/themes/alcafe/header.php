@@ -11,9 +11,10 @@
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?> class="no-js">
 <head>
-    <title>Alzheimer Cafe<?php wp_title(); ?></title>
+    <title><?php wp_title(); ?></title>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Alzheimer Cafe je pro všechny co chtějí sdílet svoje zkušenosti s alzheimerovou chorobou" />
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oranienbaum" rel="stylesheet">
